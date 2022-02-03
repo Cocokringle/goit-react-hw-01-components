@@ -1,0 +1,23 @@
+.transactionHistory {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid black;
+}
+  
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+th {
+    background-color: #770c97f7;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #be5edbf7;
+}
+tr:hover {
+    background-color: rgba(235, 224, 74, 0.637);
+}
